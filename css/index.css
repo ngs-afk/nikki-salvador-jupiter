@@ -8,6 +8,24 @@ body {
     section#About {
         text-align: center;
     }
+    section#Experience {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 20px;
+        gap: 20px;
+    }
+    section#Connect {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 20px;
+        gap: 20px;
+    }
     h2 {
         font-size: 28px;
         font-weight: lighter;
