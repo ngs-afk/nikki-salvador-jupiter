@@ -56,6 +56,28 @@ section p, section ul {
     color: rgb(255, 255, 255);
 }
 
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 0;
+    list-style: none;
+}
+
+#Skills ul li {
+    background-color: rgb(54, 69, 79);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
     body {
@@ -68,20 +90,28 @@ section p, section ul {
         margin-bottom: 25px;
     }
 
-    h2 {
-        font-size: 24px;
-        color: rgb(255, 215, 0);
-    }
-
     h1 {
         font-size: 30px;
         color: rgb(54, 69, 79);
+    }
+
+    h2 {
+        font-size: 24px;
+        color: rgb(255, 215, 0);
     }
 
     section ul {
         font-size: 14px;
         background-color: rgb(60, 60, 60);
         padding-left: 20px;
+    }
+
+    #Skills ul {
+        justify-content: center;
+    }
+
+    #Skills ul li {
+        width: 150px;
     }
 }
 
@@ -97,19 +127,28 @@ section p, section ul {
         margin-bottom: 15px;
     }
 
-    h2 {
-        font-size: 20px;
-        color: rgb(255, 215, 0);
-    }
-
     h1 {
         font-size: 26px;
         color: rgb(54, 69, 79);
+    }
+
+    h2 {
+        font-size: 20px;
+        color: rgb(255, 215, 0);
     }
 
     section ul {
         font-size: 12px;
         background-color: rgb(50, 50, 50);
         padding-left: 10px;
+    }
+
+    #Skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Skills ul li {
+        width: 100%;
     }
 }
